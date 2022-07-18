@@ -1,0 +1,164 @@
+html, body {
+	font-size: 16px;
+	color: #dfdfdf;
+	background-color: #171717;
+}
+
+a {
+	color: #dfdfdf;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+section {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.section-1 {
+	background: #171717;
+	background-image: url('image/banner.jpeg');
+	background-attachment: fixed; 
+    background-size: cover;
+
+
+}
+
+.section-2 {
+	background-color: #000000;
+}
+
+.section-3 {
+	background-color: #171717;
+}
+
+.section-4 {
+	background-color: #171717;
+	padding: 0.2rem;
+}
+
+.avatar {
+	height: 200px;
+	border-radius: 50%;
+}
+
+.dev {
+	margin: 0 auto 1rem auto;
+	max-height: 175px;
+	max-width: 175px;
+}
+
+.project-text {
+	text-align: justify;
+}
+
+.box {
+	background-color: transparent;
+	border: 5px solid rgba(7, 59, 79, 0.5);
+}
+
+.title {
+	color: rgb(255, 255, 255);
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.intro {
+	text-align: justify;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.void-background {
+	background-color: transparent;
+}
+
+span {
+	font-size: 1.8em;
+	font-display: fixed;
+	color: #ffffff;
+}
+
+subtitle {
+	font-size: 1.6em;
+	color: #ffffff;
+}
+
+subtitle-2 {
+	font-size: 1em;
+}
+
+.button {
+	background-color: transparent;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	padding-bottom: 15px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.button:hover {
+	color: #ffffff;
+	background-color: #ffffff21;
+}
+
+.button-more {
+	background-color: transparent;
+	border: 1px solid gray;
+	border-radius: 5px;
+	color: white;
+	padding: 10px 32px;
+	padding-bottom: 10px;
+	text-align: center;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+.button-more:hover {
+	color: #d6d6d6;
+	background-color: #222324;
+}
+
+button-text {
+	font-size: 1.3em;
+}
+
+.noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.center-mobile {
+	text-align: left;
+}
+
+@media all and (max-width:500px) {
+    table {
+        width:100%;
+    }
+
+    td {
+        display:block;
+        width:100%;
+    }
+
+    tr {
+        display:block;
+        margin-bottom:30px;
+    }
+
+	.center-mobile {
+		text-align: center;
+	}
+}
