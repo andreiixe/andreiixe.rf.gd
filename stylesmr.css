@@ -26,17 +26,8 @@ section {
 
 }
 
-.section-2 {
-	background-color: #000000;
-}
-
 .section-3 {
 	background-color: #171717;
-}
-
-.section-4 {
-	background-color: #171717;
-	padding: 0.2rem;
 }
 
 .avatar {
@@ -50,13 +41,15 @@ section {
 	max-width: 175px;
 }
 
+
 .project-text {
 	text-align: justify;
 }
 
 .box {
 	background-color: transparent;
-	border: 5px solid rgba(7, 59, 79, 0.5);
+	border: 5px solid rgba(79, 7, 7, 0.5);
+	border-radius: 50px;
 }
 
 .title {
@@ -93,7 +86,8 @@ subtitle-2 {
 
 .button {
 	background-color: transparent;
-	border: none;
+	border: 1px;
+	border-radius: 100px;
 	color: white;
 	padding: 15px 32px;
 	padding-bottom: 15px;
@@ -112,7 +106,7 @@ subtitle-2 {
 .button-more {
 	background-color: transparent;
 	border: 1px solid gray;
-	border-radius: 5px;
+	border-radius: 100px;
 	color: white;
 	padding: 10px 32px;
 	padding-bottom: 10px;
