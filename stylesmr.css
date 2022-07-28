@@ -12,10 +12,7 @@ a:hover {
 	color: #ffffff;
 }
 
-section {
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-}
+
 
 .section-1 {
 	background: #171717;
@@ -35,16 +32,10 @@ section {
 	border-radius: 50%;
 }
 
-.dev {
-	margin: 0 auto 1rem auto;
-	max-height: 175px;
-	max-width: 175px;
-}
 
 
-.project-text {
-	text-align: justify;
-}
+
+
 
 .box {
 	background-color: transparent;
@@ -58,15 +49,7 @@ section {
 	margin-bottom: 2rem;
 }
 
-.intro {
-	text-align: justify;
-	width: 80%;
-	margin: 0 auto;
-}
 
-.void-background {
-	background-color: transparent;
-}
 
 span {
 	font-size: 1.8em;
@@ -105,7 +88,7 @@ subtitle-2 {
 
 .button-more {
 	background-color: transparent;
-	border: 1px solid gray;
+	border: 1.9px solid rgb(255, 255, 255);
 	border-radius: 100px;
 	color: white;
 	padding: 10px 32px;
@@ -117,21 +100,12 @@ subtitle-2 {
 }
 
 .button-more:hover {
-	color: #d6d6d6;
-	background-color: #222324;
+	color: #ffffff;
+	background-color: #ffffff21;
 }
 
 button-text {
 	font-size: 1.3em;
-}
-
-.noselect {
-	-webkit-touch-callout: none;
-	-webkit-user-select: none;
-	-khtml-user-select: none;
-	-moz-user-select: none;
-	-ms-user-select: none;
-	user-select: none;
 }
 
 .center-mobile {
