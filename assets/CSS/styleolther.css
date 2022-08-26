@@ -46,6 +46,21 @@ a:hover {
     color: #ffffff;
 }
 
+.Complete {
+    width: 100%;
+    background-color: #171717;
+}
+
+.search {
+    width: 10%; background-color: #04AA6D;
+}
+
+.project {
+  padding-top: 5px;
+  padding-bottom: 5px; 
+  color: white;
+  border-radius: 30%;
+}
 .section-3 {
     background-color: #171717;
 }
